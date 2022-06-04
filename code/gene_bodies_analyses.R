@@ -10,7 +10,7 @@ annotation<-fread("data/TAIR10_GFF3_genes.gff")
 setnames(annotation, c("V1","V3","V4","V5"),c("chr", "type", "start", "stop"))
 annotation$chr<-gsub("Chr","",annotation$chr)
 
-# polymorphology contains functions to visualize variation in relation to TSS and TTS of gene bodies
+# polymorphology contains an assortment of handy functions
 # install if needed:
 #library(devtools)
 #install_github("greymonroe/polymorphology")
