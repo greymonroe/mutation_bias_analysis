@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 data/TAIR10_GFF3_genes.gff
+data/raw_variants.csv.zip
